@@ -1,0 +1,82 @@
+
+
+@font-face {
+  font-family: Nexabold; 
+    src: url(nexabold.otf)}
+body {
+font-family: NexaBold;
+  font-size: 16px;
+  line-height: 1.5;
+  background-color: #ffffff;
+  color: #333333;
+  margin: auto;
+  text-align:  justify;
+}
+@media (prefers-color-scheme: dark) {
+body {
+font-family: NexaBold;
+  font-size: 16px;
+  line-height: 1.5;
+  background-color: #000000;
+  color: #ffffff;
+  margin: auto;
+   text-align: center;
+}
+}
+
+h1 {
+  font-size: 32px;
+  font-weight: 700;
+  margin: 20px auto auto auto;
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+  font-size: 12px;
+  font-weight: 400;
+}
+nav, a {
+  font-size: 16px;
+  font-weight: 600;
+  color: black;
+  margin: auto;
+  text-align: center;
+  text-decoration: none;
+}
+
+a:hover{
+  color: #666666;
+}
+@media (prefers-color-scheme: dark) {
+a {
+  text-decoration: none;
+  color: #ffffff;
+}
+a:hover{
+  color: #666666;
+}
+}
+#image {
+  background-image: url(img_6921.jpg);
+  background-size: 300px 384px;
+  background-repeat:  no-repeat;
+  width: 300px;
+  height: 384px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#image:hover {
+  background-image: url(oldboy.png);
+  background-size: 300px 384px;
+  background-repeat:  no-repeat;
+  width: 300px;
+  height: 384px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+
+

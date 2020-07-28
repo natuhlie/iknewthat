@@ -1,0 +1,96 @@
+  @font-face {
+  font-family: Nexabold; 
+    src: url(nexabold.otf);
+font-family: Nexalight;
+    src: url(nexalight.otf);
+}
+body {
+font-family: NexaBold;
+  font-size: 16px;
+  line-height: 1.5;
+  background-color: #ffffff;
+  color: #333333;
+  margin: auto;
+}
+p {
+  text-align: left;
+  padding: 20px 20px 20px 10px;
+}
+@media (prefers-color-scheme: dark) {
+body {
+font-family: NexaBold;
+  font-size: 16px;
+  line-height: 1.5;
+  background-color: #000000;
+  color: #ffffff;
+  margin: auto;
+}
+}
+
+header {
+  font-size: 32px;
+  font-weight: 700;
+  margin: 20px auto auto auto;
+  text-align: center;
+  max-width: 450px;
+}
+ .textwrap {float: left}
+
+a {
+  text-decoration: none;
+  color: #000000;
+}
+h2 {
+  text-align: center;
+  font-size: 16px;
+  font-family: Nexalight;
+}
+nav {
+  font-size: 16px;
+  font-weight: 600;
+  margin: 20px auto 20px auto;
+  text-align: center;
+}
+
+a:hover{
+  color: #666666;
+}
+@media (prefers-color-scheme: dark) {
+a {
+  text-decoration: none;
+  color: #ffffff;
+}
+a:hover{
+  color: #666666;
+}
+}
+
+@media screen and (min-width: 426px){
+  img {
+
+   display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+  .textwrap {float: none
+}
+
+  div {
+  display: inline-block;
+
+}
+p {
+  text-align: center;
+  padding: 20px 20px 20px 10px;
+  
+}
+  @media screen and (max-width: 426px){
+
+    img {
+        width: 300px;
+  height: 384px;
+  margin-left: auto;
+  margin-right: auto;
+    }
+  }
